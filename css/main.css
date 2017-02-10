@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,cyrillic);
+
+*{	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* reset отдельным файлом и нормализация */
+
+
+/*
+
+
+1. подтянуть цсс
+2. 
+
+
+*/
+
+
+
+
+
+header, footer, article, section, hgroup, nav, figure, aside{display:block;}
+
+body{
+	font: 100%/1.5em Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	background: #fff;
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #3e454c;
+}
+
+h1{
+	display: block;
+	font-size: 1.6em;
+	line-height: 1.5;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 auto;
+	margin-bottom: 0.5em;
+	width: 90%;
+}
+
+h2{
+
+	font-size:1.6em;
+	font-weight: 400;
+	line-height:1.4em;
+	margin:0 0 0.6em;	
+}
+
+img{border-style:none;}
+
+#slider-title{
+	width: 100%;
+	background: #555;
+	height: 400px;
+	margin-bottom: 2em;
+}
+
+#central-menu-block{
+	margin: auto;
+	padding-top: 30px;
+	overflow: hidden;
+	width: 1240px;
+	height: auto;
+}
+
+.divide-menu-wrapper{
+	float: left;
+	width: 80%;
+	padding-right: 3%;
+	overflow: hidden;
+	height: auto;
+
+}
+
+.wrap-menu{
+	float: left;
+	overflow: hidden;
+	margin-right: 4%;
+	width: 46%;
+	min-height: 240px;
+}
+
+.wrap-menu img{float: left; margin-right: 1em; margin-top: 1em; padding-bottom: 3em;
+
+}
+
+.wrap-menu a{
+	text-decoration: none;
+	color: #2c2c2c;
+}
+
+a:hover{
+	color: #ff9900;
+	text-decoration: underline;
+}
+
+ul.divide-menu{
+	display: block;
+	float: left;
+	list-style: none;
+	margin-top: 5px;
+	width: 70%;
+}
+
+ul.divide-menu li{
+	margin-bottom: 0.5em;
+
+}
+
+
+
+.manufacturer-list{
+	float: right;
+	width: 20%;
+
+}
+
+.manufacturer-list ul{
+	list-style: none;
+
+}
